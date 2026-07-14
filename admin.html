@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>留言管理 - 贵州鹦鹉螺文化传播有限公司</title>
+  <link rel="stylesheet" href="css/admin.css">
+</head>
+<body>
+  <main class="admin-shell">
+    <section id="login_view" class="panel login-panel">
+      <div class="brand">Nautilus <span>留言管理</span></div>
+      <h1>管理后台</h1>
+      <p class="muted">登录后查看网站留言</p>
+      <form id="login_form">
+        <label>用户名<input id="username" name="username" autocomplete="username" required></label>
+        <label>密码<input id="password" name="password" type="password" autocomplete="current-password" required></label>
+        <button type="submit">登录</button>
+        <p id="login_status" class="status"></p>
+      </form>
+    </section>
+    <section id="messages_view" class="messages-view" hidden>
+      <header class="toolbar"><div><div class="brand">Nautilus <span>留言管理</span></div><h1>客户留言</h1></div><button id="logout_btn" class="secondary">退出登录</button></header>
+      <p id="count" class="muted"></p>
+      <div id="messages" class="message-list"></div>
+    </section>
+  </main>
+  <script src="js/admin.js"></script>
+</body>
+</html>

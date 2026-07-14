@@ -1,0 +1,4 @@
+.deploy-secrets.local
+data/messages.json
+gzywl-deploy.zip
+node_modules/

@@ -1,0 +1,9 @@
+.our-address a[href^="tel:"] { color: inherit; }
+.captcha-panel { display: flex; align-items: center; gap: 12px; min-height: 50px; margin-bottom: 35px; color: #222331; font-weight: 600; }
+.captcha-refresh { border: 0; background: transparent; color: #f5af19; cursor: pointer; padding: 4px 0; }
+.form-status { min-height: 24px; margin-top: 12px; font-size: 14px; }
+.form-status.success { color: #278a52; }
+.form-status.error { color: #c0392b; }
+@media (max-width: 767px) {
+  .captcha-panel { margin-top: -20px; margin-bottom: 25px; }
+}
